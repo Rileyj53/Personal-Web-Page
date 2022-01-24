@@ -1,0 +1,274 @@
+/*DESKTOP*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Nav Bar Begin*/
+.nav {
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block;
+  padding: 15px;
+  color: #424242;
+}
+
+#nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18pt;
+}
+
+.nav a:hover {
+  color: rgb(0, 0, 0);
+}
+/*Nav Bar End*/
+
+/*Header IMG Begin*/
+#header {
+  background-image: url("Img/Riley1.png");
+  width: 1892px;
+  height: 865px;
+}
+
+#headtxt {
+  vertical-align: middle;
+  padding-top: 18%;
+  padding-right: 27%;
+  text-align: center;
+}
+/*Header IMG End*/
+
+/* Education */
+#Education {
+  width: 1892px;
+  height: 945px;
+  background-image: url("Img/ASU_Location1.png");
+}
+
+#eduimg {
+  padding-top: 20%;
+  padding-left: 10%;
+}
+
+#edutxt {
+  text-align: center;
+  padding-top: 20%;
+  padding-right: 20%;
+  float: right;
+}
+
+/* Skills */
+
+/* Title format */
+#ttl {
+  padding-top: 1%;
+  padding-left: 5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 50pt;
+}
+
+/* skill title format */
+#sklttl {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 45pt;
+}
+
+/* skill list format */
+#skllst {
+  list-style-type: none;
+  padding-top: 0%;
+  padding-left: 0%;
+  font-family: "Roboto", sans-serif;
+  font-size: 20pt;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* skill DIV format */
+#Skills {
+  width: 1892px;
+  height: 945px;
+}
+
+#skl1 {
+  padding-top: 0%;
+  padding-left: 15%;
+  text-align: center;
+  float: left;
+}
+
+#skl2 {
+  padding-top: 0%;
+  padding-right: 17%;
+  text-align: center;
+  float: right;
+}
+
+#skl3 {
+  padding-top: 4%;
+  padding-right: 19%;
+  text-align: center;
+  float: right;
+}
+
+#skl4 {
+  padding-top: 2%;
+  padding-left: 14%;
+  text-align: center;
+  float: left;
+}
+
+/* Experience */
+#Experience {
+  width: 1892px;
+  height: 945px;
+}
+
+#expttl {
+  padding-top: 2%;
+  padding-left: 2%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 50pt;
+  padding-bottom: 0%;
+}
+
+#sbx {
+  float: left;
+  padding-top: 2%;
+  padding-left: 2.5%;
+}
+
+#sbxttl {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 40pt;
+  padding-bottom: 0%;
+}
+
+#sbxttl2 {
+  padding-top: 0%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20pt;
+}
+
+#work1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+}
+
+#cfa {
+  float: right;
+  padding-top: 2%;
+  padding-right: 3%;
+}
+
+#work2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+}
+
+/*Contact*/
+#Contact {
+    padding-top: 0%;
+  width: 1892px;
+  height: 472px;
+
+  text-align: center;
+}
+
+#myDIV {
+  padding-top: 0%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20pt;
+}
+
+/*General Formatting Begin*/
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 26pt;
+}
+
+h2 {
+  padding-top: 0%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20pt;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+ol {
+  font-family: "Roboto", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  text-align: Left !important;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+/*Footer Begin*/
+footer {
+  text-align: left;
+  padding: 3px;
+  background-color: rgb(94, 94, 94);
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-decoration: none !important;
+}
+
+/*Footer End*/
+
+#B1 {
+  background-color: rgb(221, 221, 221);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 3px solid #727272;
+}
+
+#RECP {
+  padding: 15px !important;
+  height: 200px;
+  box-shadow: 5px 5px 5px;
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+}
