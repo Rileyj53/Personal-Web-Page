@@ -1,4 +1,4 @@
-# Personal-Web-Page
+# My Personal Web Page
 
 This is a website resume of sorts that I made for applyting to jobs, It is a simple one page website nothing too special.
 
